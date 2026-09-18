@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CineVerse - Movies</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+  <div class="logo">🎬 Movie World</div>
+  <div class="search-box">
+    <input type="text" id="searchInput" placeholder="Search movies...">
+    <button id="searchBtn">🔍</button>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero" id="hero">
+  <div class="hero-content">
+    <h1 id="heroTitle">Welcome to CineVerse</h1>
+    <p id="heroOverview">Explore thousands of movies</p>
+    <button class="btn" id="heroBtn">▶ Watch Now</button>
+  </div>
+</section>
+
+<!-- Categories -->
+<section class="categories">
+  <h2>🔥 Popular Movies</h2>
+  <div class="movies-grid" id="popularGrid"></div>
+</section>
+
+<section class="categories">
+  <h2>⭐ Top Rated</h2>
+  <div class="movies-grid" id="topRatedGrid"></div>
+</section>
+
+<section class="categories">
+  <h2>🎭 Now Playing</h2>
+  <div class="movies-grid" id="nowPlayingGrid"></div>
+</section>
+
+<section class="categories">
+  <h2>🎬 Upcoming</h2>
+  <div class="movies-grid" id="upcomingGrid"></div>
+</section>
+
+<!-- Search Results -->
+<section class="categories" id="searchSection" style="display:none;">
+  <h2>🔍 Search Results</h2>
+  <div class="movies-grid" id="searchGrid"></div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>© 2025 Movie World | Made with ❤️</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
